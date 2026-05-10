@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dr. Attia Youseif</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-blue': '#0a192f',
+                        gold: '#c5a059',
+                        sand: '#f4f1ea',
+                        'accent-gold': '#d4af37'
+                    },
+                    fontFamily: {
+                        display: ['Playfair Display', 'serif'],
+                        body: ['Montserrat', 'sans-serif'],
+                        arabic: ['Amiri', 'serif']
+                    }
+                }
+            }
+        };
+    </script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --deep-blue: #0a192f;
+            --gold: #c5a059;
+            --sand: #f4f1ea;
+            --accent-gold: #d4af37;
+        }
+
+        body {
+            font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--sand);
+            color: var(--deep-blue);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Amiri', serif;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .islamic-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cpath d='M40 0l10 30h30L55 50l10 30-25-20-25 20 10-30L0 30h30z' fill='%23c5a059' fill-opacity='0.05'/%3E%3C/svg%3E");
+        }
+
+        .nav-glass {
+            background: rgba(10, 25, 47, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-primary {
+            background-color: var(--gold);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary:hover {
+            background-color: #b38f4d;
+            transform: translateY(-2px);
+        }
+
+        .active-link {
+            color: var(--gold) !important;
+            position: relative;
+        }
+
+        .active-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--gold);
+        }
+
+        .info-card {
+            background: white;
+            border-left: 4px solid var(--gold);
+        }
+    </style>
+</head>
+<body class="islamic-pattern antialiased">
+    <nav class="nav-glass text-white fixed w-full z-40 py-4">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
+            <div class="flex-shrink-0 flex flex-col">
+                <a href="index.html" class="hover:opacity-80 transition-opacity">
+                    <span class="text-xl md:text-2xl font-bold tracking-wider hero-title">Dr. Attia Youseif</span>
+                    <span class="text-[10px] text-gold uppercase tracking-[0.3em] font-light block">Indiana University Bloomington</span>
+                </a>
+            </div>
+
+            <div class="hidden lg:block">
+                <div class="flex items-baseline space-x-10 uppercase text-[11px] font-semibold tracking-[0.3em]">
+                    <a href="index.html" class="hover:text-gold transition-colors">Home</a>
+                    <a href="about.html" class="hover:text-gold transition-colors">About</a>
+                    <a href="Research.html" class="hover:text-gold transition-colors">Research</a>
+                    <a href="Teaching.html" class="hover:text-gold transition-colors">Teaching</a>
+                    <a href="Service.html" class="hover:text-gold transition-colors">Service</a>
+                    <a href="contact.html" class="active-link transition-colors">Contact</a>
+                </div>
+            </div>
+
+            <div class="lg:hidden">
+                <button id="menu-btn"
+                        class="text-white focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-deep-blue rounded"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-nav">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-nav"
+             class="hidden bg-deep-blue/95 px-6 pt-6 pb-8 space-y-4 text-center uppercase tracking-[0.25em] text-xs border-t border-white/10 mt-4">
+            <a href="index.html" class="block py-2 text-white hover:text-gold transition-colors">Home</a>
+            <a href="about.html" class="block py-2 text-white hover:text-gold transition-colors">About</a>
+            <a href="Research.html" class="block py-2 text-white hover:text-gold transition-colors">Research</a>
+            <a href="Teaching.html" class="block py-2 text-white hover:text-gold transition-colors">Teaching</a>
+            <a href="Service.html" class="block py-2 text-white hover:text-gold transition-colors">Service</a>
+            <a href="contact.html" class="block py-2 text-gold font-semibold">Contact</a>
+        </div>
+    </nav>
+
+    <header class="pt-40 pb-20 bg-deep-blue text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 islamic-pattern" style="background-size: 150px;"></div>
+        </div>
+        <div class="relative z-10 px-6">
+            <h1 class="text-4xl md:text-6xl text-white hero-title">Contact</h1>
+            <div class="h-1 w-20 bg-gold mx-auto mt-6"></div>
+        </div>
+    </header>
+
+    <main id="main-content" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid lg:grid-cols-12 gap-10">
+            <section class="lg:col-span-7 space-y-6">
+                <article class="info-card p-8">
+                    <h2 id="contactName" class="text-3xl font-bold mb-2">Dr. Attia Youseif</h2>
+                    <p id="contactTitle" class="text-gold font-semibold uppercase tracking-widest text-xs">Senior Lecturer of Arabic</p>
+                    <p id="contactAffiliation" class="mt-4 text-gray-700">Department of Middle East Languages and Cultures, Indiana University</p>
+                </article>
+
+                <article class="info-card p-8">
+                    <h3 class="text-2xl font-bold mb-4">Professional Contact</h3>
+                    <div class="space-y-3 text-sm">
+                        <p><i class="fas fa-location-dot text-gold mr-2" aria-hidden="true"></i><span id="contactOffice">HLS 3054, Bloomington, IN</span></p>
+                        <p>
+                            <i class="fas fa-envelope text-gold mr-2" aria-hidden="true"></i>
+                            <a class="cv-email-link hover:text-gold transition-colors" href="mailto:ayouseif@iu.edu">ayouseif@iu.edu</a>
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <aside class="lg:col-span-5 bg-sand/40 p-8 border-l-4 border-deep-blue">
+                <h3 class="text-2xl font-bold mb-6">Current Focus Areas</h3>
+                <ul id="contactInterests" class="space-y-4 text-sm">
+                    <li class="flex items-start"><i class="fas fa-check text-gold mt-1 mr-3" aria-hidden="true"></i><span>Arabic linguistics</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-gold mt-1 mr-3" aria-hidden="true"></i><span>Arabic language pedagogy</span></li>
+                    <li class="flex items-start"><i class="fas fa-check text-gold mt-1 mr-3" aria-hidden="true"></i><span>Arabic dialectology</span></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="bg-deep-blue text-white py-12 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-[10px] text-gray-400 uppercase tracking-[0.2em]">
+                Dr. Attia Youseif | Indiana University Bloomington |
+                <span id="footer-year">2024</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/cv-site.js"></script>
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        if (menuBtn && mobileNav) {
+            menuBtn.addEventListener('click', () => {
+                const isHidden = mobileNav.classList.contains('hidden');
+                mobileNav.classList.toggle('hidden');
+                menuBtn.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+            });
+
+            mobileNav.addEventListener('click', (event) => {
+                if (event.target.tagName === 'A') {
+                    mobileNav.classList.add('hidden');
+                    menuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
+        const footerYear = document.getElementById('footer-year');
+        if (footerYear) {
+            footerYear.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Attia Youseif | Academic Portfolio</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CDN config: custom colors & fonts -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-blue': '#0a192f',
+                        gold: '#c5a059',
+                        sand: '#f4f1ea',
+                        'accent-gold': '#d4af37'
+                    },
+                    fontFamily: {
+                        display: ['Playfair Display', 'serif'],
+                        body: ['Montserrat', 'sans-serif'],
+                        arabic: ['Amiri', 'serif']
+                    }
+                }
+            }
+        };
+    </script>
+
+    <!-- Icons & Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --deep-blue: #0a192f;
+            --gold: #c5a059;
+            --sand: #f4f1ea;
+            --accent-gold: #d4af37;
+        }
+
+        body {
+            font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--sand);
+            color: var(--deep-blue);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3, .arabic-text {
+            font-family: 'Amiri', serif;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .islamic-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cpath d='M40 0l10 30h30L55 50l10 30-25-20-25 20 10-30L0 30h30z' fill='%23c5a059' fill-opacity='0.05'/%3E%3C/svg%3E");
+        }
+
+        .nav-glass {
+            background: rgba(10, 25, 47, 0.95);
+            backdrop-filter: blur(10px);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-primary {
+            background-color: var(--gold);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary:hover {
+            background-color: #b38f4d;
+            transform: translateY(-2px);
+        }
+
+        .active-link {
+            color: var(--gold) !important;
+            position: relative;
+        }
+        
+        .active-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--gold);
+        }
+
+        /* Improve focus-visible on skip link when using Tailwind sr-only pattern */
+        .skip-link {
+            position: absolute;
+            left: 1rem;
+            top: 0.75rem;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="islamic-pattern min-h-screen flex flex-col antialiased">
+
+    <!-- Skip to main content (for keyboard users) -->
+    <a href="#main-content"
+       class="skip-link sr-only focus:not-sr-only bg-deep-blue text-white px-4 py-2 rounded-md text-xs tracking-widest uppercase">
+        Skip to main content
+    </a>
+
+    <!-- Navigation -->
+    <nav class="nav-glass text-white fixed w-full z-40 py-4">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
+            <!-- Brand -->
+            <div class="flex-shrink-0 flex flex-col">
+                <a href="index.html" class="hover:opacity-80 transition-opacity">
+                    <span class="text-xl md:text-2xl font-bold tracking-wider hero-title">
+                        Dr. Attia Youseif
+                    </span>
+                    <span class="text-[10px] text-gold uppercase tracking-[0.3em] font-light block">
+                        Indiana University Bloomington
+                    </span>
+                </a>
+            </div>
+            
+            <!-- Desktop nav -->
+            <div class="hidden lg:block">
+                <div class="flex items-baseline space-x-10 uppercase text-[11px] font-semibold tracking-[0.3em]">
+                    <a href="index.html" class="active-link transition-colors">Home</a>
+                    <a href="about.html" class="hover:text-gold transition-colors">About</a>
+                    <a href="Research.html" class="hover:text-gold transition-colors">Research</a>
+                    <a href="Teaching.html" class="hover:text-gold transition-colors">Teaching</a>
+                    <a href="Service.html" class="hover:text-gold transition-colors">Service</a>
+                    <a href="contact.html" class="btn-primary ml-4">Contact</a>
+                </div>
+            </div>
+
+            <!-- Mobile nav toggle -->
+            <div class="lg:hidden">
+                <button id="menu-btn"
+                        class="text-white focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-deep-blue rounded"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-nav">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-nav"
+             class="hidden bg-deep-blue/95 px-6 pt-6 pb-8 space-y-4 text-center uppercase tracking-[0.25em] text-xs border-t border-white/10 mt-4">
+            <a href="index.html" class="block py-2 text-gold">Home</a>
+            <a href="about.html" class="block py-2 text-white hover:text-gold transition-colors">About</a>
+            <a href="Research.html" class="block py-2 text-white hover:text-gold transition-colors">Research</a>
+            <a href="Teaching.html" class="block py-2 text-white hover:text-gold transition-colors">Teaching</a>
+            <a href="Service.html" class="block py-2 text-white hover:text-gold transition-colors">Service</a>
+            <a href="contact.html" class="block py-2 text-gold font-semibold">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main id="main-content" class="flex-grow flex flex-col justify-center">
+        <!-- Hero Section -->
+        <header class="relative flex items-center justify-center overflow-hidden bg-deep-blue">
+            <!-- Background Pattern -->
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute inset-0 islamic-pattern" style="background-size: 200px;"></div>
+            </div>
+            
+            <div class="relative z-10 text-center px-6 py-24 md:py-32 lg:py-40">
+                <div class="mb-6 inline-block py-1 px-4 border border-gold/30 rounded-full bg-deep-blue/50">
+                    <p id="indexHeroTagline" class="text-gold uppercase tracking-[0.4em] text-[10px] md:text-xs">
+                        Arabic Linguistics | Pedagogy | Dialectology
+                    </p>
+                </div>
+                
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl xl:text-8xl text-white hero-title mb-8 leading-tight">
+                    Academic <span class="text-gold">Portfolio</span>
+                </h1>
+                
+                <div id="indexQuote" class="text-white/80 text-base md:text-lg lg:text-xl max-w-3xl mx-auto font-light leading-relaxed mb-12 italic border-l-2 border-gold/50 pl-6">
+                    "Senior Lecturer of Arabic at Indiana University, specializing in Arabic linguistics, language pedagogy, dialectology, and technology-enhanced learning."
+                </div>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-6">
+                    <a href="about.html" class="btn-primary">Full Biography</a>
+                    <a href="Research.html"
+                       class="border border-white/20 text-white px-8 py-3 hover:bg-white hover:text-deep-blue transition-all font-semibold">
+                        Research Repository
+                    </a>
+                </div>
+
+                <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 text-left max-w-5xl mx-auto">
+                    <article class="bg-white/5 border border-white/10 p-4">
+                        <h2 class="text-gold uppercase tracking-[0.2em] text-[10px] mb-2">Leadership</h2>
+                        <p id="indexHighlightLeadership" class="text-white/85 text-sm">Director of Tutoring, Arabic Flagship Program (2021-Present)</p>
+                    </article>
+                    <article class="bg-white/5 border border-white/10 p-4">
+                        <h2 class="text-gold uppercase tracking-[0.2em] text-[10px] mb-2">Recognition</h2>
+                        <p id="indexHighlightRecognition" class="text-white/85 text-sm">Trustees Teaching Award, Indiana University (2023)</p>
+                    </article>
+                    <article class="bg-white/5 border border-white/10 p-4 sm:col-span-2 lg:col-span-1">
+                        <h2 class="text-gold uppercase tracking-[0.2em] text-[10px] mb-2">Research Focus</h2>
+                        <p id="indexHighlightResearch" class="text-white/85 text-sm">Corpus-based Arabic learning resources and computational analysis of Arabic texts</p>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Bottom Arabic Calligraphy Motif -->
+            <div class="absolute bottom-10 w-full text-center px-4">
+                <div class="arabic-text text-white/20 text-2xl md:text-3xl lg:text-4xl">
+                    اللغة هي جسر الثقافة
+                </div>
+            </div>
+        </header>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-deep-blue text-white py-8 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-[10px] text-gray-400 uppercase tracking-[0.2em]">
+                Dr. Attia Youseif | Indiana University Bloomington |
+                <span id="footer-year">2024</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/cv-site.js"></script>
+    <script>
+        // Mobile Menu Toggle with ARIA state
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        if (menuBtn && mobileNav) {
+            menuBtn.addEventListener('click', () => {
+                const isHidden = mobileNav.classList.contains('hidden');
+                mobileNav.classList.toggle('hidden');
+                menuBtn.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+            });
+
+            // Close mobile nav when a link is clicked
+            mobileNav.addEventListener('click', (event) => {
+                if (event.target.tagName === 'A') {
+                    mobileNav.classList.add('hidden');
+                    menuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
+        // Dynamic footer year
+        const footerYear = document.getElementById('footer-year');
+        if (footerYear) {
+            footerYear.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>

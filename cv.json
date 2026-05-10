@@ -1,0 +1,830 @@
+{
+"source": "CV text provided by the user. ",
+"profile": {
+"name": "Attia Youseif",
+"title": "Senior Lecturer of Arabic",
+"affiliation": "Department of Middle East Languages and Cultures, Hamilton Lugar School of Global and International Studies, Indiana University",
+"office": "HLS 3054, 355 Eagleson Ave., Bloomington, IN 47405",
+"phone": "812-929-5998",
+"email": "[ayouseif@iu.edu](mailto:ayouseif@iu.edu)",
+"areas": [
+"Arabic linguistics",
+"Arabic grammar and morphology",
+"Arabic language pedagogy",
+"Teaching Arabic as a foreign language",
+"Arabic dialectology",
+"Corpus-based Arabic learning resources",
+"Technology-enhanced language learning",
+"Arabic cultural studies"
+]
+},
+"about": {
+"summary": "Attia Youseif is a Senior Lecturer of Arabic at Indiana University. His work focuses on Arabic linguistics, Arabic language pedagogy, Arabic dialectology, Arabic cultural instruction, and technology-based learning materials for Arabic learners. He has taught Arabic across multiple proficiency levels and developed content-based Arabic courses on media, cinema, minorities in the Middle East, contemporary Arab issues, business communication, and Arabic language and culture.",
+"education": [
+{
+"year": "2008",
+"degree": "Ph.D. in Arabic Linguistics",
+"institution": "Alexandria University",
+"location": "Alexandria, Egypt"
+},
+{
+"year": "2003",
+"degree": "M.A. in Arabic Grammar and Morphology",
+"institution": "Alexandria University",
+"location": "Alexandria, Egypt"
+},
+{
+"year": "1997",
+"degree": "Preliminary Year for the master’s degree in Arabic General Linguistics",
+"institution": "Alexandria University",
+"location": "Alexandria, Egypt"
+},
+{
+"year": "1995",
+"degree": "B.A. in Arabic Language and Literature",
+"institution": "Alexandria University",
+"location": "Alexandria, Egypt"
+},
+{
+"year": "2010",
+"degree": "Diploma in Teaching Arabic to Non-Native Speakers",
+"institution": "Alexandria University",
+"location": "Alexandria, Egypt"
+},
+{
+"year": "1998",
+"degree": "Diploma in Islamic Preaching",
+"institution": "Institute of Islamic Preaching, Egyptian Ministry of Endowments",
+"location": "Cairo, Egypt"
+}
+],
+"appointments": [
+{
+"period": "2022-Present",
+"title": "Senior Lecturer of Arabic",
+"institution": "Indiana University",
+"unit": "Department of Middle East Languages and Cultures, Hamilton Lugar School of Global and International Studies"
+},
+{
+"period": "2021-Present",
+"title": "Director of Tutoring of Arabic Flagship Program",
+"institution": "Indiana University",
+"unit": "Hamilton Lugar School of Global and International Studies"
+},
+{
+"period": "2017-2021",
+"title": "Lecturer of Arabic",
+"institution": "Indiana University",
+"unit": "Department of Middle East Languages and Cultures, Hamilton Lugar School of Global and International Studies"
+},
+{
+"period": "2014-2017",
+"title": "Cultural and Information Counselor",
+"institution": "Egyptian Embassy",
+"location": "Tbilisi, Georgia"
+},
+{
+"period": "2011-2017",
+"title": "Assistant Professor and Linguistic Expert",
+"institution": "Tbilisi State University",
+"location": "Tbilisi, Georgia"
+},
+{
+"period": "2008-2010",
+"title": "Lecturer of Arabic Linguistics",
+"institution": "Alexandria University",
+"location": "Alexandria, Egypt"
+},
+{
+"period": "1997-2008",
+"title": "Arabic Instructor",
+"institution": "Ministry of Education",
+"location": "Alexandria, Egypt"
+}
+],
+"awards": [
+{
+"year": "2023",
+"name": "Trustees Teaching Award",
+"institution": "Indiana University"
+},
+{
+"year": "2020",
+"name": "Excellence in Instruction Award, Best Teaching Practices",
+"institution": "Language Workshop, Hamilton Lugar School of Global and International Studies, Indiana University"
+}
+],
+"academic_affiliations": [
+"American Association for Applied Linguistics (AAAL)",
+"American Association of Teachers of Arabic (AATA)",
+"American Council on the Teaching of Foreign Languages (ACTFL)",
+"Arabic Linguistic Society (ALS)",
+"Association Internationale de Dialectologie Arabe (AIDA)",
+"British Association of Teachers of Arabic (BATA)",
+"Indiana Foreign Language Teachers Association (IFLTA)",
+"Middle East Studies Association (MESA)",
+"National Council of Less Commonly Taught Languages (NCOLCTL)",
+"The National Center for Faculty Development & Diversity (NCFDD)"
+]
+},
+"index": {
+"sections": [
+{
+"id": "about",
+"label": "About",
+"description": "Biography, education, appointments, awards, and affiliations."
+},
+{
+"id": "research",
+"label": "Research",
+"description": "Books, refereed articles, works in progress, conference presentations, and research grants."
+},
+{
+"id": "teaching",
+"label": "Teaching",
+"description": "Courses taught, new course development, language pedagogy, Arabic Flagship tutoring, and materials development."
+},
+{
+"id": "service",
+"label": "Service",
+"description": "University service, professional service, committee work, advising, and event organization."
+},
+{
+"id": "technology",
+"label": "Technology",
+"description": "Digital Arabic learning projects, corpus-based tools, interactive learning environments, and computational Arabic projects."
+}
+],
+"featured_highlights": [
+"Senior Lecturer of Arabic at Indiana University",
+"Director of Tutoring of the Arabic Flagship Program",
+"Author and co-author of books on forensic linguistics, Qur’anic vocal performance, Arabic grammar, and teaching Arabic with computers",
+"Developer of Arabic content courses, including Minorities in the Middle East, Arab Media, and Contemporary Challenges in the Arab World",
+"Researcher in Arabic dialectology, corpus-based Arabic learning tools, and computational analysis of Arabic literary texts",
+"Recipient of Indiana University teaching awards and multiple teaching and research grants"
+]
+},
+"research": {
+"research_interests": [
+"Arabic linguistics",
+"Arabic grammar and morphology",
+"Arabic dialectology",
+"Arabic phonetics and phonology",
+"Arabic language pedagogy",
+"Teaching Arabic to non-native speakers",
+"Arabic heritage learners",
+"Corpus-based Arabic learning resources",
+"Computational analysis of Arabic novels",
+"Arabic literary and cultural studies",
+"Technology in Arabic language teaching"
+],
+"books": [
+{
+"year": "2022",
+"authors": "Youseif, A. & Abdelghaffar, S.",
+"title": "Forensic Linguistics: Applied Practices",
+"publisher": "Dar Elnapegha for Publishing and Distribution",
+"location": "Tanta, Egypt"
+},
+{
+"year": "2021",
+"authors": "Youseif, A. & Abdelghaffar, S.",
+"title": "The Philosophy of Vocal Performance in the Holy Qur’an for Learners",
+"series": "Series of Specialized Studies in Teaching Arabic for Non-Native Speakers",
+"publisher": "Islamic World Educational, Scientific and Cultural Organization (ICESCO)",
+"location": "Rabat, Morocco"
+},
+{
+"year": "2017",
+"authors": "Youseif, A. & Abdelghaffar, S.",
+"title": "Creativity and Identity for Al Buhaira's Writers",
+"publisher": "Noor Publishing",
+"location": "Marrakech, Morocco"
+},
+{
+"year": "2011",
+"authors": "Youseif, A.",
+"title": "Arabic Grammar for All",
+"type": "Textbook",
+"publisher": "Dar AlnoAmany Publishing",
+"location": "Alexandria, Egypt"
+},
+{
+"year": "2010",
+"authors": "Youseif, A.",
+"title": "The Computer and Teaching Arabic",
+"type": "Textbook",
+"publisher": "Alshinhaby Publishing",
+"location": "Alexandria, Egypt"
+}
+],
+"refereed_articles": [
+{
+"year": "2017",
+"author": "Youseif, A.",
+"title": "Culture, Language and Society",
+"venue": "The Fourth International Scientific Conference, Language and Culture"
+},
+{
+"year": "2016",
+"author": "Youseif, A.",
+"title": "Numbers in Arabic and Georgian",
+"venue": "Akaki Tsereteli State University Yearbook",
+"pages": "11-41"
+},
+{
+"year": "2015",
+"author": "Youseif, A.",
+"title": "Question's Argumentation in Fawzi Issa's Poems: A Semantic Study",
+"venue": "Journal of the Faculty of Arts, University of Baghdad"
+},
+{
+"year": "2015",
+"author": "Youseif, A.",
+"title": "The Effect of the Arabic Language on Georgian and the Implementation of this in Teaching Arabic for Georgians",
+"venue": "Ivane Javakhishvili Tbilisi State University Press",
+"pages": "109-125"
+},
+{
+"year": "2015",
+"author": "Youseif, A.",
+"title": "Parenthetical Sentences in Helmy Marzouk’s Writings",
+"venue": "Journal of the Faculty of Arts, University of Banha"
+}
+],
+"works_in_progress": [
+{
+"authors": "Youseif, A. & Alramadan, I.",
+"title": "Impact of Using Technology in Teaching Arabic for Non-Native Speakers",
+"status": "For submission to ICESCO"
+},
+{
+"authors": "Youseif, A., Al-Hamad, Muntasir, & others",
+"title": "SALAM: Series Textbook for Non-Native Speakers and Website",
+"status": "Book and website in progress"
+},
+{
+"authors": "Youseif, A. & Mohamed, Yahia",
+"title": "Jeem Story in Arabic",
+"status": "Book in preparation"
+},
+{
+"authors": "Youseif, A., Elghamry, K. & Abdou, M.",
+"title": "Naguib: A Lexical Conceptual Taxonomy for the Computational Analysis of Arabic Novels",
+"status": "Final model in progress"
+},
+{
+"authors": "Youseif, A.",
+"title": "The Needs of Instructors of Arabic Heritage Learners",
+"status": "Manuscript in preparation for L2 Journal"
+},
+{
+"authors": "Youseif, A. & Elghamry, K.",
+"title": "Variations of the /g/ Sound in Egypt’s Regional Dialects",
+"status": "Manuscript in preparation"
+},
+{
+"authors": "Youseif, A. & Elghamry, K.",
+"title": "Corpus-Based Familiarity Dictionary of Arabic",
+"status": "Manuscript in preparation"
+},
+{
+"authors": "Youseif, A. & Elghamry, K.",
+"title": "Searching for Optimal Context-Sensitive Models of Spoken Modern Standard Arabic",
+"status": "Manuscript in preparation"
+},
+{
+"authors": "Youseif, A. & Elghamry, K.",
+"title": "Thamaraat: Corpus-Driven Dictionaries and Models for Learning and Teaching Arabic",
+"status": "Manuscript in preparation"
+},
+{
+"authors": "Youseif, A., Morkus, N., Al-Ramadan, I. & Bisutti, A.",
+"title": "Introductory Arabic",
+"publisher": "Great River Learning",
+"status": "Under contract"
+}
+],
+"selected_conference_presentations": [
+{
+"year": "2023",
+"title": "Creating an Interactive Learning Environment for Arabic Language Learning through Technology",
+"venue": "British Association of Teachers of Arabic 3rd Annual International Conference",
+"location": "University of Manchester, England"
+},
+{
+"year": "2023",
+"title": "Effective Strategies for Enhancing Student Engagement in World Language Classroom",
+"venue": "British Association of Teachers of Arabic 3rd Annual International Conference",
+"location": "University of Manchester, England"
+},
+{
+"year": "2023",
+"title": "Building a Linguistic Lexicon for Non-Native Arabic Learners",
+"venue": "International Conference: Computing the Functional Frequency Lexicon of Schoolchild",
+"location": "Tlemcen University, Algeria"
+},
+{
+"year": "2022",
+"title": "البيت بيتك / Make Yourself at Home! / Mi Casa es Su Casa",
+"venue": "CATC Arabic Pedagogy Conference, MESA Annual Meeting",
+"location": "Denver, Colorado"
+},
+{
+"year": "2021",
+"title": "Naguib: A Model for the Computational Analysis of Arabic Literary Texts",
+"venue": "Experimental Arabic Linguistics Conference",
+"location": "American University of Sharjah, UAE"
+},
+{
+"year": "2020",
+"title": "Variation-Sensitive Familiarity for Words in Arabic Using the Web as Corpus",
+"venue": "Third Biennial U-M International Conference on Arabic Applied Linguistics",
+"location": "University of Michigan"
+},
+{
+"year": "2020",
+"title": "ArabiLight: A Context-Sensitive Conversation-Friendly Model for Spoken Modern Standard Arabic",
+"venue": "20th International Conference on Pragmatics and Language Learning",
+"location": "Indiana University"
+},
+{
+"year": "2020",
+"title": "Al-Kindi: A Novel Model for Author Attribution in Arabic Religious and Historical Speeches",
+"venue": "Digital Humanities in Arabic Conference",
+"location": "Doha Institute, Qatar"
+},
+{
+"year": "2019",
+"title": "Variations of the /g/ Sound in Egypt’s Regional Dialects",
+"venue": "AIDA, Association Internationale de Dialectologie Arabe",
+"location": "Kutaisi, Georgia"
+},
+{
+"year": "2015",
+"title": "The Siwi Dialect and a Comparative Field Study between the Tamazight and Arabic Language",
+"venue": "11th International Conference, Association Internationale de Dialectologie Arabe",
+"location": "University of Bucharest, Romania"
+}
+],
+"grants": [
+{
+"year": "2023",
+"amount": "$7500",
+"name": "Intensive Freshman Seminars",
+"institution": "Indiana University"
+},
+{
+"year": "2022",
+"amount": "$2500",
+"name": "Global Classroom",
+"institution": "Indiana University"
+},
+{
+"year": "2020",
+"amount": "$500",
+"name": "African Studies Program conference grant",
+"institution": "Indiana University"
+},
+{
+"year": "2020",
+"amount": "$650",
+"name": "Center for the Study of the Middle East conference grant",
+"institution": "Indiana University"
+},
+{
+"year": "2019",
+"amount": "$1750",
+"name": "HLS Research Grant for research on the /g/ sound in Egyptian dialect",
+"institution": "Hamilton Lugar School of Global and International Studies"
+},
+{
+"year": "2019",
+"amount": "$8000",
+"name": "Ostrom Grant for creating the IU Arabic Listening Station",
+"institution": "Indiana University"
+}
+]
+},
+"teaching": {
+"teaching_summary": "Youseif teaches Arabic language courses across proficiency levels and content courses that combine language development with culture, media, politics, literature, and contemporary issues in the Arab world. His teaching emphasizes communicative language instruction, cultural competence, student engagement, project-based learning, and advanced academic discourse in Arabic.",
+"levels_taught": [
+"Novice Arabic",
+"Intermediate Arabic",
+"Advanced Arabic",
+"Superior-level Arabic"
+],
+"content_courses_taught": [
+"Arabic Media",
+"Arabic Cinema",
+"Minorities in the Middle East",
+"Contemporary Challenges in the Middle East",
+"Daily Life in the Arab World",
+"Introduction to Arabic Language and Culture I",
+"Introduction to Arabic Language and Culture II",
+"Crash Course in Arabic Business Communication and Marketing"
+],
+"new_courses_created": [
+{
+"term": "Summer 2023",
+"title": "Culture and Identity: Taste of the Middle East",
+"co_developer": "Iman Alramadan",
+"description": "A course designed to help new university students understand cultural identity, cultural diversity, stereotypes, and cooperative college life through examples from the Middle East."
+},
+{
+"term": "Spring 2023",
+"title": "Global Classroom: Minorities in the Middle East",
+"co_developer": "Iman Alramadan",
+"description": "A collaborative Arabic course connecting Indiana University, the American University in Cairo, and the American University in Beirut. The course studies ethnic and religious minorities in the Middle East through academic and non-academic sources."
+},
+{
+"term": "Spring 2023",
+"title": "Crash Course in Arabic Business Communication and Marketing",
+"co_developer": "Iman Alramadan",
+"description": "A short course on Arabic business language, cultural competency, practical vocabulary, hierarchy, nonverbal communication, and marketing to Arab consumers."
+},
+{
+"term": "Spring 2021",
+"title": "Introduction to Arabic Language and Culture II",
+"co_developer": "Iman Alramadan",
+"description": "A three-week short course introducing Arabic conversation, numbers, time, family vocabulary, and selected aspects of Arab culture."
+},
+{
+"term": "Fall 2020",
+"title": "Introduction to Arabic Language and Culture I",
+"co_developer": "Iman Alramadan",
+"description": "A three-week short course introducing greetings, common expressions, self-introductions, hobbies, and basic Arab culture."
+},
+{
+"term": "Summer 2020",
+"title": "Daily Life in the Arab World",
+"description": "An advanced fifth-year Arabic content course on education, work, social interaction, family life, cuisine, health, and social customs."
+},
+{
+"term": "Spring 2019",
+"title": "Contemporary Challenges in the Arab World",
+"description": "An intensive advanced Arabic language and culture course focused on contemporary Arab culture, debate, analysis, criticism, and academic discourse."
+},
+{
+"term": "Spring 2019",
+"title": "Minorities in the Middle East",
+"description": "An Arabic content course on ethnic and religious minorities in the Middle East and Arab world from historical, cultural, social, political, literary, and media perspectives."
+},
+{
+"term": "Spring 2018",
+"title": "Arab Media",
+"description": "An Arabic content course focused on reading, listening, discussion, presentation, and composition through Arab online media and current socio-political and cultural issues."
+}
+],
+"summer_language_teaching": [
+{
+"period": "Summer 2022",
+"role": "Arabic Instructor",
+"institution": "Summer Language Workshop, Indiana University"
+},
+{
+"period": "Summer 2021",
+"role": "Arabic Instructor",
+"institution": "Summer Language Workshop, Indiana University"
+},
+{
+"period": "Summer 2020",
+"role": "Arabic Instructor",
+"institution": "Summer Language Workshop, Indiana University"
+},
+{
+"period": "Summer 2019",
+"role": "Arabic Instructor and Assistant of Arabic Head Session",
+"institution": "Summer Language Workshop, Indiana University"
+},
+{
+"period": "Summer 2018",
+"role": "Arabic Instructor",
+"institution": "Summer Language Workshop, Indiana University"
+},
+{
+"period": "Summer 2017",
+"role": "Instructor of Arabic",
+"institution": "Arabic School, Middlebury College"
+},
+{
+"period": "Summer 2016",
+"role": "Instructor of Arabic",
+"institution": "Arabic School, Middlebury College"
+}
+],
+"materials_development": [
+{
+"period": "2019-Present",
+"project": "Arabic Listening Station",
+"description": "A professional website for Arabic listening materials across proficiency levels, with videos, weekly topics, and automated graded assignments."
+},
+{
+"period": "2018-Present",
+"project": "Arabic research papers and corpus project",
+"description": "Research and corpus-based work connected to Arabic language learning and Arabic linguistics."
+},
+{
+"period": "2017-Present",
+"project": "Arabic teaching materials at Indiana University",
+"description": "Development and sharing of Arabic teaching materials with Arabic instructors."
+},
+{
+"period": "2016-2017",
+"project": "Arabic teaching materials at Middlebury College",
+"description": "Development of teaching materials for the Arabic Summer School."
+},
+{
+"period": "2013-2017",
+"project": "Arabic teaching materials at Tbilisi State University",
+"description": "Development of Arabic teaching materials for instructors in Georgia and other institutions."
+}
+],
+"student_advising": {
+"dissertation_committees": [
+"Abdullah Saad Alamri",
+"Issam Albdairat",
+"Mohammed Alzimzm",
+"Ali Aljubilan",
+"Ahmad Jeddeeni",
+"Michael White",
+"Khalid Alotaibi"
+],
+"doctoral_qualifying_exam_committees": [
+"Bandar Alqazlan",
+"Ahmad Jeddeeni",
+"Abdullah Alraziza",
+"Ali Aljubailan",
+"Ahmad Aljafen",
+"Ahmed Almutiri",
+"Abdullah Esshali",
+"Saleh Alsakaker",
+"Issam Albdairat",
+"Soud Alrashoodi",
+"Khalid Alotaibi",
+"Mahmoud Hassan",
+"Abdulrahman Albawardi"
+]
+}
+},
+"service": {
+"service_summary": "Youseif has contributed to Indiana University, the Arabic Flagship Program, the Center for the Study of the Middle East, student organizations, ACTFL, IFLTA, Middlebury College, and the broader Arabic teaching profession through committee work, advising, event organization, proposal review, and professional leadership.",
+"service_to_iu": {
+"co_organized_events": [
+{
+"date": "March 2020",
+"event": "Arabic Calligraphy Workshop with Dr. Muhammed Habib",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "February 2020",
+"event": "Arabic Pottery Night",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "July 2019",
+"event": "Arabic Talent Show",
+"unit": "Summer Language Workshop, Indiana University"
+},
+{
+"date": "April 2019",
+"event": "Arabic Photo Exhibit",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "March 2019",
+"event": "Arabic Writing Competition",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "February 2019",
+"event": "Arabic Talent Show",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "October 2018",
+"event": "Arabic Calligraphy Workshop with Dr. Muhammed Habib",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "June 2018",
+"event": "Arabic Fashion Show",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "April 2018",
+"event": "Arabic Dinner",
+"unit": "Arabic Program, NELC Department, Indiana University"
+},
+{
+"date": "February 2018",
+"event": "Arabic Pottery Night",
+"unit": "Arabic Program, NELC Department, Indiana University"
+}
+],
+"committees": [
+{
+"period": "2022-2023",
+"role": "Member, Executive Committee",
+"unit": "Department of Middle Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2021-2022",
+"role": "Member, Executive Committee",
+"unit": "Department of Middle Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2020-2021",
+"role": "Member, Executive Committee",
+"unit": "Department of Middle Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2019-2020",
+"role": "Member, Lectures, Awards and Outreach Committee",
+"unit": "Department of Middle Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2019-Present",
+"role": "Member, Executive Committee",
+"unit": "Department of Near Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2018-2019",
+"role": "Member, Lectures, Awards and Outreach Committee",
+"unit": "Department of Near Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2018-2019",
+"role": "Member, IU Graduate Faculty",
+"unit": "Department of Near Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2018-2019",
+"role": "Member, Award Committee",
+"unit": "Department of Near Eastern Languages and Cultures, Indiana University"
+},
+{
+"period": "2018-2019",
+"role": "Member, Curriculum Committee",
+"unit": "Department of Near Eastern Languages and Cultures, Indiana University"
+}
+]
+},
+"supporting_other_iu_units": [
+{
+"period": "2020-Present",
+"role": "Director of Flagship Tutoring and Conversation",
+"unit": "Arabic Flagship, Indiana University"
+},
+{
+"period": "Summer 2020",
+"role": "Head of Arabic Flagship Contribution in Teacher Training Modules",
+"unit": "Language Workshop, Indiana University"
+},
+{
+"year": "2023",
+"role": "Faculty Advisor",
+"event": "Ohio Valley Regional Model Arab League",
+"location": "Miami University, Oxford, Ohio"
+},
+{
+"year": "2023",
+"role": "Faculty Advisor",
+"event": "National University Model Arab League",
+"location": "George Washington University, Washington, DC"
+},
+{
+"period": "2018-2023",
+"role": "Advisor",
+"organization": "Saudi Students Club at Indiana University"
+}
+],
+"service_to_profession": [
+{
+"period": "2022-2023",
+"role": "Vice President",
+"organization": "ACTFL SIG Community Colleges"
+},
+{
+"period": "2022-2023",
+"role": "Social Media Manager",
+"organization": "Indiana Foreign Language Teachers Association"
+},
+{
+"period": "2021-Present",
+"role": "Founder/Initiator",
+"organization": "Tutoring Community of Flagship Programs"
+},
+{
+"year": "2023",
+"role": "Reviewer",
+"organization": "ACTFL 2023 proposals"
+},
+{
+"period": "2016-2017",
+"role": "Coordinator of Placement Testing",
+"organization": "Arabic Program, Middlebury College"
+},
+{
+"term": "Spring 2019",
+"role": "Reviewer of Arabic Dialects Materials",
+"organization": "Arabic Summer School, Middlebury College"
+}
+]
+},
+"technology": {
+"technology_summary": "Youseif’s technology-related work connects Arabic pedagogy, corpus-based learning resources, interactive digital materials, computational analysis of Arabic texts, and online language learning environments.",
+"projects": [
+{
+"name": "Arabic Listening Station",
+"period": "2019-Present",
+"category": "Digital language learning",
+"description": "A website for Arabic listening materials from multiple sources, organized by proficiency level and weekly class topic, with automated graded assignments."
+},
+{
+"name": "Naguib",
+"category": "Computational Arabic literary analysis",
+"description": "A lexical conceptual taxonomy for the computational analysis of Arabic novels."
+},
+{
+"name": "SALAM",
+"category": "Digital textbook and website",
+"description": "A series textbook and website for non-native Arabic speakers, with a first book designed for Japanese students."
+},
+{
+"name": "ArabiLight",
+"category": "Corpus-based spoken Arabic model",
+"description": "A context-sensitive, conversation-friendly model for spoken Modern Standard Arabic."
+},
+{
+"name": "MASHHOOR",
+"category": "Learner dictionary",
+"description": "A learner’s familiarity dictionary for Arabic using the web as corpus."
+},
+{
+"name": "Al-Kindi",
+"category": "Author attribution",
+"description": "A model for author attribution in Arabic religious and historical speeches."
+},
+{
+"name": "Thamaraat",
+"category": "Corpus-driven Arabic learning resources",
+"description": "Corpus-driven dictionaries and models for learning and teaching Arabic."
+}
+],
+"technology_related_presentations": [
+{
+"year": "2023",
+"title": "Creating an Interactive Learning Environment for Arabic Language Learning through Technology",
+"venue": "BATA 3rd Annual International Conference"
+},
+{
+"year": "2023",
+"title": "Towards the Realization of an Interactive Digital Book of the Prophet's Biography for Children",
+"venue": "International Conference: Computing the Functional Frequency Lexicon of Schoolchild"
+},
+{
+"year": "2021",
+"title": "Naguib: A Model for the Computational Analysis of Arabic Literary Texts",
+"venue": "Experimental Arabic Linguistics Conference"
+},
+{
+"year": "2020",
+"title": "Variation-Sensitive Familiarity for Words in Arabic Using the Web as Corpus",
+"venue": "University of Michigan Arabic Applied Linguistics Conference"
+},
+{
+"year": "2020",
+"title": "Al-Kindi: A Novel Model for Author Attribution in Arabic Religious and Historical Speeches",
+"venue": "Digital Humanities in Arabic Conference"
+}
+],
+"professional_development_related_to_technology_and_pedagogy": [
+{
+"date": "June 2021",
+"title": "Soaring Higher with MACAWS: Integrating iDDL with Other Web Applications to Enhance Language Learning",
+"institution": "CERCLL, University of Arizona"
+},
+{
+"date": "May 2021",
+"title": "Envisioning Project-Based Language Learning 2021 - Tech Center",
+"institution": "Language Flagship Technology Innovation Center"
+},
+{
+"date": "April 2021",
+"title": "Reading Multimodally: Guiding L2 Learners to Interpret Everyday Web Texts",
+"institution": "CERCLL, University of Arizona"
+},
+{
+"date": "January 2021",
+"title": "Canvas Tools for Foreign Language Classes",
+"institution": "Center for Innovative Teaching and Learning, Indiana University"
+},
+{
+"date": "April 2019",
+"title": "Video Editing Workshop",
+"institution": "Center for Language Technology, Indiana University"
+}
+]
+}
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service &amp; Outreach | Dr. Attia Youseif</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CDN config: custom colors & fonts (match other pages) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-blue': '#0a192f',
+                        gold: '#c5a059',
+                        sand: '#f4f1ea',
+                        'accent-gold': '#d4af37'
+                    },
+                    fontFamily: {
+                        display: ['Playfair Display', 'serif'],
+                        body: ['Montserrat', 'sans-serif'],
+                        arabic: ['Amiri', 'serif']
+                    }
+                }
+            }
+        };
+    </script>
+
+    <!-- Icons & Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --deep-blue: #0a192f;
+            --gold: #c5a059;
+            --sand: #f4f1ea;
+            --accent-gold: #d4af37;
+        }
+
+        body {
+            font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--sand);
+            color: var(--deep-blue);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3, .arabic-text {
+            font-family: 'Amiri', serif;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .islamic-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cpath d='M40 0l10 30h30L55 50l10 30-25-20-25 20 10-30L0 30h30z' fill='%23c5a059' fill-opacity='0.05'/%3E%3C/svg%3E");
+        }
+
+        .nav-glass {
+            background: rgba(10, 25, 47, 0.95);
+            backdrop-filter: blur(10px);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--gold);
+            margin: 15px auto;
+        }
+
+        .btn-primary {
+            background-color: var(--gold);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary:hover {
+            background-color: #b38f4d;
+            transform: translateY(-2px);
+        }
+
+        .active-link {
+            color: var(--gold) !important;
+            position: relative;
+        }
+        
+        .active-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--gold);
+        }
+
+        .service-card {
+            background: white;
+            border-left: 4px solid var(--gold);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .service-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .skip-link {
+            position: absolute;
+            left: 1rem;
+            top: 0.75rem;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="islamic-pattern antialiased">
+
+    <!-- Skip to main content -->
+    <a href="#main-content"
+       class="skip-link sr-only focus:not-sr-only bg-deep-blue text-white px-4 py-2 rounded-md text-xs tracking-widest uppercase">
+        Skip to main content
+    </a>
+
+    <!-- Navigation -->
+    <nav class="nav-glass text-white fixed w-full z-40 py-4">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
+            <div class="flex-shrink-0 flex flex-col">
+                <a href="index.html" class="hover:opacity-80 transition-opacity">
+                    <span class="text-xl md:text-2xl font-bold tracking-wider hero-title">
+                        Dr. Attia Youseif
+                    </span>
+                    <span class="text-[10px] text-gold uppercase tracking-[0.3em] font-light block">
+                        Indiana University Bloomington
+                    </span>
+                </a>
+            </div>
+            
+            <div class="hidden lg:block">
+                <div class="flex items-baseline space-x-10 uppercase text-[11px] font-semibold tracking-[0.3em]">
+                    <a href="index.html" class="hover:text-gold transition-colors">Home</a>
+                    <a href="about.html" class="hover:text-gold transition-colors">About</a>
+                    <a href="Research.html" class="hover:text-gold transition-colors">Research</a>
+                    <a href="Teaching.html" class="hover:text-gold transition-colors">Teaching</a>
+                    <a href="Service.html" class="active-link transition-colors">Service</a>
+                    <a href="contact.html" class="btn-primary ml-4">Contact</a>
+                </div>
+            </div>
+
+            <div class="lg:hidden">
+                <button id="menu-btn"
+                        class="text-white focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-deep-blue rounded"
+                        aria-label="Toggle navigation menu"
+                        aria-expanded="false"
+                        aria-controls="mobile-nav">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-nav"
+             class="hidden bg-deep-blue/95 px-6 pt-6 pb-8 space-y-4 text-center uppercase tracking-[0.25em] text-xs border-t border-white/10 mt-4">
+            <a href="index.html" class="block py-2 text-white hover:text-gold transition-colors">Home</a>
+            <a href="about.html" class="block py-2 text-white hover:text-gold transition-colors">About</a>
+            <a href="Research.html" class="block py-2 text-white hover:text-gold transition-colors">Research</a>
+            <a href="Teaching.html" class="block py-2 text-white hover:text-gold transition-colors">Teaching</a>
+            <a href="Service.html" class="block py-2 text-gold font-semibold">Service</a>
+            <a href="contact.html" class="block py-2 text-gold font-semibold">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="pt-40 pb-20 bg-deep-blue text-center relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 islamic-pattern" style="background-size: 150px;"></div>
+        </div>
+        <div class="relative z-10 px-6">
+            <h1 class="text-4xl md:text-6xl text-white hero-title">Professional Service</h1>
+            <div class="h-1 w-20 bg-gold mx-auto mt-6"></div>
+        </div>
+    </header>
+
+    <!-- Academic Leadership Section -->
+    <main id="main-content">
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                <div class="grid lg:grid-cols-12 gap-16">
+                    <section class="lg:col-span-5">
+                        <h2 class="text-3xl font-bold mb-8 section-title ml-0 text-left">Academic Leadership</h2>
+                        <p id="serviceSummary" class="text-lg text-gray-700 leading-relaxed mb-6">
+                            Dr. Youseif contributes to Indiana University and the broader Arabic teaching profession through
+                            committee work, tutoring leadership, event organization, advising, and proposal review.
+                        </p>
+                        <div class="p-8 bg-sand/30 border-l-4 border-deep-blue">
+                            <h3 class="text-xl font-bold mb-4 italic">Committees &amp; SIGs</h3>
+                            <ul class="space-y-4 text-sm font-medium">
+                                <li class="flex items-start">
+                                    <i class="fas fa-landmark text-gold mt-1 mr-3" aria-hidden="true"></i>
+                                    <span>Vice President, ACTFL SIG Community Colleges (2022-2023).</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-microscope text-gold mt-1 mr-3" aria-hidden="true"></i>
+                                    <span>Social Media Manager, Indiana Foreign Language Teachers Association (2022-2023).</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-users text-gold mt-1 mr-3" aria-hidden="true"></i>
+                                    <span>Founder/Initiator, Tutoring Community of Flagship Programs (2021-Present).</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="lg:col-span-7 space-y-6">
+                        <article class="service-card p-8">
+                            <h3 class="text-xl font-bold mb-2 italic">Departmental Service at Indiana University</h3>
+                            <p class="text-gray-600">
+                                Member of Executive Committees and Lectures, Awards, and Outreach Committees in the Department of Near/Middle Eastern
+                                Languages and Cultures across multiple academic years.
+                            </p>
+                        </article>
+                        <article class="service-card p-8">
+                            <h3 class="text-xl font-bold mb-2 italic">Flagship and Student Support</h3>
+                            <p class="text-gray-600">
+                                Director of Flagship Tutoring and Conversation (2020-Present), and advisor for student initiatives,
+                                including the Saudi Students Club at Indiana University (2018-2023).
+                            </p>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recognition & Awards Section -->
+        <section class="py-24 bg-sand">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold section-title">Honors &amp; Recognition</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <article class="bg-white p-10 border-t-4 border-gold shadow-md">
+                        <i class="fas fa-award text-gold text-4xl mb-6" aria-hidden="true"></i>
+                        <h3 class="text-xl font-bold mb-4">Trustees Teaching Award</h3>
+                        <p class="text-gray-500 text-xs uppercase tracking-widest mb-4">Indiana University, 2023</p>
+                        <p class="text-sm text-gray-700">
+                            Recognition for excellence in classroom instruction, curriculum development, and sustained contributions
+                            to Arabic language teaching at Indiana University.
+                        </p>
+                    </article>
+                    <article class="bg-white p-10 border-t-4 border-gold shadow-md">
+                        <i class="fas fa-medal text-gold text-4xl mb-6" aria-hidden="true"></i>
+                        <h3 class="text-xl font-bold mb-4">Excellence in Instruction Award</h3>
+                        <p class="text-gray-500 text-xs uppercase tracking-widest mb-4">Language Workshop, Indiana University, 2020</p>
+                        <p class="text-sm text-gray-700">
+                            Awarded for best teaching practices in the Language Workshop at the Hamilton Lugar School of Global
+                            and International Studies.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events and Professional Contributions -->
+        <section class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+                <h2 class="text-3xl font-bold mb-16 section-title text-center">Events &amp; Professional Contributions</h2>
+                <div class="space-y-6">
+                    <article class="p-8 border border-gray-100 flex flex-col md:flex-row justify-between items-start hover:shadow-lg transition-all">
+                        <div class="flex-1 pr-8">
+                            <h3 class="font-bold text-lg mb-2 italic">
+                                Arabic Program Co-Organized Events at Indiana University
+                            </h3>
+                            <p id="serviceEvents" class="text-sm text-gray-600">
+                                Arabic Calligraphy Workshop (2018, 2020), Arabic Pottery Night (2018, 2020), Arabic Talent Show (2019),
+                                Arabic Photo Exhibit (2019), Arabic Writing Competition (2019), and Arabic Dinner/Fashion events.
+                            </p>
+                        </div>
+                        <span class="mt-4 md:mt-0 text-[10px] font-bold uppercase tracking-widest py-2 px-4 bg-deep-blue text-white">
+                            IU Service
+                        </span>
+                    </article>
+
+                    <article class="p-8 border border-gray-100 flex flex-col md:flex-row justify-between items-start hover:shadow-lg transition-all">
+                        <div class="flex-1 pr-8">
+                            <h3 class="font-bold text-lg mb-2 italic">
+                                Faculty Advisor Roles
+                            </h3>
+                            <p class="text-sm text-gray-600">
+                                Faculty Advisor for Ohio Valley Regional Model Arab League (Miami University, 2023) and
+                                National University Model Arab League (George Washington University, 2023).
+                            </p>
+                        </div>
+                        <span class="mt-4 md:mt-0 text-[10px] font-bold uppercase tracking-widest py-2 px-4 bg-deep-blue text-white">
+                            Advising
+                        </span>
+                    </article>
+
+                    <article class="p-8 border border-gray-100 flex flex-col md:flex-row justify-between items-start hover:shadow-lg transition-all">
+                        <div class="flex-1 pr-8">
+                            <h3 class="font-bold text-lg mb-2 italic">
+                                Professional Reviewing and Program Coordination
+                            </h3>
+                            <p class="text-sm text-gray-600">
+                                Reviewer for ACTFL 2023 proposals; coordinator of placement testing and reviewer of Arabic dialect
+                                materials for Middlebury Arabic Summer School.
+                            </p>
+                        </div>
+                        <span class="mt-4 md:mt-0 text-[10px] font-bold uppercase tracking-widest py-2 px-4 bg-deep-blue text-white">
+                            Profession
+                        </span>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-deep-blue text-white py-12 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="flex justify-center space-x-8 mb-8 text-lg">
+                <a href="https://www.linkedin.com/in/attia-youseif-4a5aab129"
+                   target="_blank" rel="noopener noreferrer"
+                   class="text-gold/60 hover:text-gold transition-colors" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.researchgate.net/profile/Attia-Youseif"
+                   target="_blank" rel="noopener noreferrer"
+                   class="text-gold/60 hover:text-gold transition-colors" aria-label="ResearchGate">
+                    <i class="fab fa-researchgate"></i>
+                </a>
+                <a href="mailto:ayouseif@iu.edu"
+                   class="text-gold/60 hover:text-gold transition-colors" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p class="text-[10px] text-gray-400 uppercase tracking-[0.2em]">
+                Dr. Attia Youseif | Indiana University Bloomington |
+                <span id="footer-year">2024</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="assets/js/cv-site.js"></script>
+    <script>
+        // Mobile Menu Toggle with ARIA state
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        if (menuBtn && mobileNav) {
+            menuBtn.addEventListener('click', () => {
+                const isHidden = mobileNav.classList.contains('hidden');
+                mobileNav.classList.toggle('hidden');
+                menuBtn.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+            });
+
+            mobileNav.addEventListener('click', (event) => {
+                if (event.target.tagName === 'A') {
+                    mobileNav.classList.add('hidden');
+                    menuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
+        // Dynamic footer year
+        const footerYear = document.getElementById('footer-year');
+        if (footerYear) {
+            footerYear.textContent = new Date().getFullYear();
+        }
+    </script>
+</body>
+</html>
